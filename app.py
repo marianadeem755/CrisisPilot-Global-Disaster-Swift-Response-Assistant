@@ -77,13 +77,13 @@ st.markdown("""
         box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
         transition: all 0.3s ease !important;
     }
-    
+
     .stButton > button:hover {
         transform: translateY(-2px) !important;
         box-shadow: 0 6px 20px rgba(0,0,0,0.3) !important;
     }
-    
-    /* Enhanced main title with glassmorphism effect */
+
+    /* Enhanced main title with glassmorphism effect - BLACK COLOR */
     .main-title {
         background: rgba(255, 255, 255, 0.25) !important;
         backdrop-filter: blur(10px) !important;
@@ -97,7 +97,22 @@ st.markdown("""
         box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37) !important;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.3) !important;
     }
-    
+
+    /* Subtitle with glassmorphism effect - WHITE COLOR */
+    .subtitle {
+        background: rgba(255, 255, 255, 0.25) !important;
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+        border: 1px solid rgba(255, 255, 255, 0.18) !important;
+        padding: 20px !important;
+        border-radius: 20px !important;
+        color: white !important;
+        text-align: center !important;
+        margin-bottom: 30px !important;
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37) !important;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5) !important;
+    }
+
     /* Alert boxes with glassmorphism */
     .alert-danger {
         background: rgba(255, 107, 107, 0.8) !important;
