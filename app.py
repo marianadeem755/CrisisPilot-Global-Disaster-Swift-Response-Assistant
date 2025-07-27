@@ -98,6 +98,12 @@ st.markdown("""
         text-shadow: 2px 2px 4px rgba(0,0,0,0.3) !important;
     }
 
+    /* Make only the subtitle (paragraph) white */
+    .main-title p {
+        color: white !important;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5) !important;
+    }
+
     /* Subtitle with glassmorphism effect - WHITE COLOR */
     .subtitle {
         background: rgba(255, 255, 255, 0.25) !important;
