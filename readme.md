@@ -79,6 +79,14 @@ News Monitoring → AI Analysis → Threat Assessment → Alert Generation → I
 - Interactive emergency kit checklists
 - Family emergency plan generator
 - Personal risk assessment system
+## 🖥️ Live Streamlit App Preview
+
+CrisisPilot provides an intuitive dashboard to monitor disasters and issue alerts in real-time.
+
+**Here's how the app looks in action:**
+
+![CrisisPilot Demo](https://crisis-alert-pilot.streamlit.app/)
+![CrisisPilot Streamlit App](images/crisispilot_streamlit_demo.png)
 
 
 ## 📢 Discord Alerts
@@ -160,7 +168,137 @@ crisisipilot/
 │   └── templates.py
 
 ```
+# 📖 How to Use CrisisPilot: Global Disaster Swift Response Assistant
 
+## 🌍 Getting Started
+
+- **Enter your location** in the main application dashboard to personalize alerts and risk assessments for your area  
+- **Configure Discord webhook** in your settings to enable community alert sharing  
+- Navigate through the following tabs to access all disaster response features:
+
+
+## 📊 Monitor Active Disasters
+
+### 🔴 Current Real-Time Features  
+### 📡 Real-Time News Monitoring
+
+- Live news fetching from **Serper API** + **DuckDuckGo** backup  
+- Location-based disaster searches using multiple keyword combinations  
+- Automatic fresh content filtering  
+
+## 🚨 Instant Alert System
+
+- Real-time **Discord notifications** via webhooks  
+- Professional alert message generation using **Groq AI (Llama 3.3-70B)**  
+- Immediate alert delivery with retry logic and error handling  
+
+**View real-time alerts like:**  
+> 🚨 *"DISASTER ALERT! Flood in Lahore – Severity: High"*
+
+**Follow recommended actions:**  
+- e.g., *"Avoid flooded areas"*
+
+**Trigger Discord Alerts:**  
+- Share warnings with your community instantly.
+
+
+## 🔍 On-Demand Threat Detection
+
+- Manual disaster scanning with **"Check for Disasters"** button  
+- **AI-powered news analysis** for disaster identification  
+- Severity assessment and risk categorization
+
+
+## 🤖 Use the AI Disaster Assistant/Chatbot
+
+### 💬 Live AI Chat Assistant
+
+- Real-time conversational AI powered by **Groq LLM**  
+- Context-aware responses with conversation memory  
+- Emergency-specific guidance based on detected disasters
+
+**Ask Safety Questions**  
+Type queries like:  
+- *"What should I do during an earthquake?"*  
+- *"How to prepare for a flood?"*
+
+**Get Instant Guidance**  
+The AI provides step-by-step safety tips, e.g.:  
+> *"Drop, cover, and hold on during quakes."*
+
+
+## 📋 Smart Survival Guide
+
+Quick-access disaster protocols:
+
+### Floods  
+- ✋ Never walk/drive through floodwater  
+- ⬆️ Move to higher ground  
+- 🔌 Avoid downed power lines
+
+### Earthquakes  
+- 🛌 Drop, cover, hold (under sturdy furniture)  
+- 🪟 Stay away from windows
+
+### Fires  
+- 🚪 Check doors for heat before opening  
+- 🧯 Use fire extinguishers (PASS method)
+
+**Always:**  
+- 📱 Save local emergency numbers  
+- 🎒 Keep a go-bag ready (see Survival Kit section)
+
+
+## 🔍 Personal Risk Assessment
+
+### Identify Your Risks  
+- Enter your location details to generate a **custom risk report**  
+- e.g., *"Earthquake: Medium Risk"*  
+- View prioritized threats: floods, earthquakes, etc., based on local data
+
+### Recommended Actions  
+**Medium/High-Risk Scenarios:**  
+- Focus preparedness efforts  
+- e.g., Secure furniture for earthquakes
+
+**Low-Risk Scenarios:**  
+- Maintain basic emergency kits
+
+**Generate a Report:**  
+- Click **"Generate Risk Assessment Report"**  
+- Review your risk levels and tailored safety steps
+
+## 🛡️ Emergency Preparedness Tools
+
+### ✅ Survival SmartKit Checklist
+
+Pack essentials like:  
+- Water (1 gallon/person/day)  
+- Flashlight, batteries, first aid kit  
+- Non-perishable food (3-day supply)
+
+Track completion progress:  
+- e.g., *"Kit: 25% ready"*
+
+### 👨‍👩‍👧 Family Emergency Plan
+
+**Add Members:**  
+- Names, ages, medical needs  
+
+**Set Meeting Points:**  
+- Local (e.g., *"University of Lahore"*)  
+- Regional  
+
+**Save Contacts:**  
+- Primary/secondary emergency phone numbers
+
+## 📚 Additional Resources
+
+### Government & Apps
+
+- [Ready.gov](https://www.ready.gov): Official preparedness guides  
+- [FEMA App](https://www.fema.gov/mobile-app): Disaster alerts and shelters  
+- [Red Cross App](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/mobile-apps.html): First aid and real-time warnings
 
 ## 🔮 Future Expansion
 
