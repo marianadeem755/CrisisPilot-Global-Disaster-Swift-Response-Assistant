@@ -85,7 +85,9 @@ CrisisPilot provides an intuitive dashboard to monitor disasters and issue alert
 
 **Here's how the app looks in action:**
 
-![CrisisPilot Demo](https://crisis-alert-pilot.streamlit.app/)
+## 🌐 CrisisPilot Live Demo
+
+👉[Click here to open the live Streamlit app](https://crisis-alert-pilot.streamlit.app/)
 ![CrisisPilot Streamlit App](images/crisispilot_streamlit_demo.png)
 
 
