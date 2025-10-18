@@ -1,5 +1,5 @@
 from langchain_groq import ChatGroq
-from langchain.schema.runnable import RunnablePassthrough
+from langchain_core.runnables import RunnablePassthrough
 from langchain.schema.output_parser import StrOutputParser
 from utils.templates import NEWS_ANALYSIS_TEMPLATE
 from utils.parsers import parse_disaster_text
