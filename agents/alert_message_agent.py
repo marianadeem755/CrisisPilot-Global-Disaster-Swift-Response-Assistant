@@ -1,5 +1,5 @@
 from langchain_groq import ChatGroq
-from langchain.schema.output_parser import StrOutputParser
+from langchain_core.output_parsers import StrOutputParser
 from langchain.prompts import PromptTemplate
 from config import GROQ_API_KEY
 from datetime import datetime
